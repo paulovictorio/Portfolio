@@ -1,36 +1,48 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Portfolio
+<br id="topo">
+<p align="center">
+    <a href="#sobre">Sobre Mim</a>  |  
+    <a href="#formacao">Formação</a>  |
+    <a href="#capacitacoes">Capacitações</a>  | 
+    <a href="#contatos">Contatos</a>  |
+    
+</p>
 
-## Getting Started
+<span id="sobre">
 
-First, run the development server:
+##  Sobre Mim
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+Me chamo Paulo, atualmente estudo Desenvolvimento de Software Multiplataforma pela Fatec Votorantim, dando segmento aos meus estudos em programação. Tenho formação como técnico de informática para internet, por meio do ensino médio e técnico integrado da ETEC Elias Miguel Júnior, também em Votorantim. Meu interesse por desenvolvimento se iniciou no fim do ensino fundamental com a programação de jogos, onde planejo seguir carreira em breve. 
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Por meio dos cursos e formações, obtive conhecimentos fundamentais de programação orientada a objetos, banco de dados relacionais e não relacionais, engenharia de software e gerenciamento de projetos, todas habilidades importantes para a área de jogos onde planejo me especializar. 
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+Tenho como objetivo por meio deste portifólio apresentar minhas capacitações técnicas adquiridas durante meus cursos e apresentar os projetos que contaram com minha participação no desenvolvimento. 
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+<span id="formacao">
 
-## Learn More
+## :bookmark_tabs: Formação
+| Escolaridade | Instituição | Período |
+|:--:|:----------:|:----------------|
+| Ensino Médio Técnico Em Informática Para Internet  | ETEC Elias Miguel Junior  |   2020 - 2022    |
+| Faculdade Técnica Em Desenvolvimento De Software Multiplataforma  | Fatec Votorantim  |   2023 - 2025    |
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🛠️ Capacitações
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+<span id="capacitacoes">
+<p align="center">
+      <a href="https://skillicons.dev">
+    <img src="https://skillicons.dev/icons?i=html,css,js,tailwind,nodejs,mongodb,vercel,react,angular,mysql" />
+  </a>
+</p>
+</span>
 
-## Deploy on Vercel
+## 📞 Contatos
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+<span id="contatos">
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+ [![GitHub Badge](https://img.shields.io/badge/GitHub-111217?style=flat-square&logo=github&logoColor=white)](https://github.com/paulovictorio)
+
+ 📱 (15) 99131-2822
+
+ 📧 paulocesarvictorio940@gmail.com
