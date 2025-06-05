@@ -49,8 +49,8 @@ export default function Formacao() {
                 RecycleHub
               </Typography>
               <Typography className="text-gray-300 px-4">
-                Projeto Integrador do primeiro e segundo semestre da fatec votorantim, focado em sustentabiliade, 
-                tinha como objetivo aproximar vendedores de grandes quantidades de sucata e outros materiáis reciclaveis com potenciais compradores.
+                Projeto Integrador do primeiro e segundo semestre da Fatec Votorantim, focado em sustentabilidade, 
+                tinha como objetivo aproximar vendedores de grandes quantidades de sucata e outros materiais recicláveis com potenciais compradores.
               </Typography>
               <CardFooter className="flex flex-wrap gap-3 pb-4">
                 <FaAngular size={24}/>
@@ -71,9 +71,9 @@ export default function Formacao() {
                   Projeto Compras Fatec
                 </Typography>
                 <Typography className="text-gray-300 px-4">
-                  Projeto Integrador do terceiro semestre em diante da fatec votorantim, tem como objetivo facilitar a comunicação entre
+                  Projeto Integrador do terceiro semestre em diante da Fatec Votorantim, tem como objetivo facilitar a comunicação entre
                   a diretora de serviços administrativos e os demais funcionários da Fatec. O projeto permite que funcionários realizem
-                  pedidos de materiais, enquando a diretora de serviços administrativos, ou administradora, possue registros de todos os pedidos
+                  pedidos de materiais, enquanto a diretora de serviços administrativos, ou administradora, possui registros de todos os pedidos
                   para fins organizacionais, além de poder informar o status do pedido para quem o fez e filtrar pedidos também para organização e relatório
                 </Typography>
                 <CardFooter className="flex flex-wrap gap-3 px-4 pb-4">
