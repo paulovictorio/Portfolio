@@ -42,7 +42,7 @@ export default function Home() {
                 transition={{ delay: 0.4, duration: 0.5 }}
                 viewport={{ once: true }}
               >
-                Me chamo Paulo e atualmente estudo Desenvolvimento de Software Multiplataforma na Fatec Votorantim. Dou
+                Olá! Eu me chamo Paulo César Victório e atualmente estudo Desenvolvimento de Software Multiplataforma na Fatec Votorantim. Dou
             continuidade aos meus estudos em programação após ter me formado como técnico de Informática para Internet
             pela ETEC Elias Miguel Júnior, também em Votorantim.
               </motion.p>
