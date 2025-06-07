@@ -12,16 +12,16 @@ import {
 
 export default function Formacao() {
   return (
-    <main className="bg-black text-white min-h-screen flex flex-col items-center justify-center px-4 py-12">
+    <main className="bg-gray-700 text-white min-h-screen flex flex-col items-center justify-center px-4 py-12">
       <motion.div
-        className="items-center text-center max-w-3xl space-y-6"
+        className="text-center max-w-3xl space-y-6"
         initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
         <h1 className="text-3xl font-bold">Formação Acadêmica</h1>
 
-        <div className="space-y-4 text-gray-300 ">
+        <div className="space-y-4 text-gray-300 flex flex-wrap justify-center gap-6">
           <div>
             <p className="text-lg font-semibold text-white">🎓 Fatec Votorantim</p>
             <p>Desenvolvimento de Software Multiplataforma</p>
@@ -42,7 +42,7 @@ export default function Formacao() {
       >
         <h1 className="text-3xl font-semibold">Projetos</h1>
           <div className="flex flex-wrap justify-center gap-6">
-            <Card className="mt-6 w-96 bg-gray-600 shadow-lg">
+            <Card className="mt-6 w-96 bg-gray-600 shadow-lg rounded-lg">
             <CardBody className="flex flex-col justify-between h-full items-center text-center gap-2 px-16 ">
                  <FaLeaf size={40} />
               <Typography variant="h5" color="blue-gray" className="mb-2 text-white">
@@ -64,7 +64,7 @@ export default function Formacao() {
             </CardBody>
             </Card>
 
-            <Card className="mt-6 w-96 bg-gray-600 shadow-lg">
+            <Card className="mt-6 w-96 bg-gray-600 shadow-lg rounded-lg">
               <CardBody className="flex flex-col items-center text-center">
                 <FaShoppingCart size={40} />
                 <Typography variant="h5" color="blue-gray" className="mb-2 text-white">

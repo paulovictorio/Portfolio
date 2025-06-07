@@ -8,14 +8,13 @@ export default function Home() {
     <main>
         <section
           id="sobre"
-          className="flex flex-col items-center justify-center min-h-screen text-white px-4 py-8 bg-black"
+          className="flex flex-col md:flex-row items-center justify-center min-h-screen text-white px-4 py-12 gap-20 bg-gray-700"
         >
           <motion.div
             initial={{ opacity: 0, y: 40 }}
             whileInView={{ opacity: 1, y: 0 }}
             transition={{ duration: 0.7 }}
             viewport={{ once: true }}
-            className="flex flex-col items-center"
           >
             <Image
               src="/foto.jpeg"
@@ -24,10 +23,18 @@ export default function Home() {
               height={150}
               className="rounded-full mb-6"
             />
+          </motion.div>
 
+          <motion.div
+            initial={{ opacity: 0, x: 40 }}
+            whileInView={{ opacity: 1, x: 0 }}
+            transition={{ duration: 0.6 }}
+            viewport={{ once: true }}
+            className="max-w-2xl space-y-4 text-center md:text-left"
+          >
             <div className="max-w-3xl text-center space-y-4">
               <motion.h1
-                className="text-2xl font-semibold"
+                className="text-3xl font-bold"
                 initial={{ opacity: 0 }}
                 whileInView={{ opacity: 1 }}
                 transition={{ delay: 0.3, duration: 0.6 }}

@@ -1,5 +1,5 @@
 import Link from 'next/link';
-import { FaGithub } from 'react-icons/fa';
+import { FaGithub, FaWhatsapp, FaEnvelope } from 'react-icons/fa';
 
 export default function Navbar() {
   return (
@@ -29,10 +29,26 @@ export default function Navbar() {
             <FaGithub size={24} />
             <span>GitHub</span>
           </a>
-  
-          <p>Email: paulocesar940@gmail.com</p>
-  
-          <p>Celular: (15) 99131-2822</p>
+
+          <a
+            href="https://wa.me/5515991312822"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-gray-400 transition-colors"
+          >
+            <FaWhatsapp size={24} />
+            <span>Whatsapp</span>
+          </a>
+
+          <a
+            href="https://mail.google.com/mail/?view=cm&fs=1&to=paulocesarvictorio940@gmail.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 hover:text-gray-400 transition-colors"
+          >
+            <FaEnvelope size={24} />
+            <span>Gmail</span>
+          </a>
       </div>
      </div>
     </nav>
