@@ -12,7 +12,7 @@ import {
 
 export default function Formacao() {
   return (
-    <main className="bg-gray-700 text-white min-h-screen flex flex-col items-center justify-center px-4 py-12">
+    <main className="bg-gray-700 text-white min-h-screen flex flex-col items-center px-4 py-12">
       <motion.div
         className="text-center max-w-3xl space-y-6"
         initial={{ opacity: 0, y: 40 }}
@@ -40,7 +40,7 @@ export default function Formacao() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.7 }}
       >
-        <h1 className="text-3xl font-semibold">Projetos</h1>
+        <h1 className="text-3xl font-bold text-center">Projetos</h1>
           <div className="flex flex-wrap justify-center gap-6">
             <Card className="mt-6 w-96 bg-gray-600 shadow-lg rounded-lg">
             <CardBody className="flex flex-col justify-between h-full items-center text-center gap-2 px-16 ">
